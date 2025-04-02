@@ -3,3 +3,8 @@ body{
     font-family: 'Courier New', Courier, monospace;
 
 }
+
+body, h1{
+    text-align: center;
+    margin-top: 5%;
+}
