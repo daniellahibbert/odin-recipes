@@ -1,27 +1,89 @@
-body{
-    background-color: beige;
-    font-family: 'Courier New', Courier, monospace;
-
-}
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change the font to a more modern one */
-    line-height: 1.6;
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
     text-align: center;
-    
-}
-
-
-
-nav {
-    margin-top: 10px;
-    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Navigation Bar */
+  .square {
+    background-color: #555;
+    display: flex;
+    justify-content: center; /* centers nav items */
+    height: 40px;
+    width: 100%;
+    position: sticky; /* keeps it at the top when scrolling */
+    
+  }
+  
+  /* Nav Items */
+  .lasagnabav, .mangonav, .jerknav {
+    color: white;
+    font-family: Chalkduster, fantasy;
+    padding: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  /* Optional hover effect */
+  .lasagnabav:hover,
+  .mangonav:hover,
+  .jerknav:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header Title */
+  header h1 {
+    color: rgb(101, 41, 41);
+    font-size: 70px;
+    font-family: Papyrus, fantasy;
+    margin: 30px 0;
+  }
+  
+  /* General h1 */
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  /* Nav Wrapper (if needed) */
+  nav {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    align-items: center;
+    color: black;
+  }
+  
+  /* Section titles */
+  section h1 {
+    font-family: Chalkduster, fantasy;
+    margin: 20px 0;
+    padding-top: 40px;
+    font-size: 30px;;
+  }
+  
+  /* Images */
+  img {
+    margin: 5px;
+    padding-bottom: 20px;
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+  }
+
+  section p{
+font-family: Marker Felt, fantasy;
+font-size: 20px;
+  }
+
+  footer p{
+    font-family: Chalkduster, fantasy;
+    padding: 20px; 
+
 }
-img {
-    width: 50%;
-    max-width: 400px;
-    margin: 20px auto;
-    display: block;
-    border-radius: 10px;
-}
+  
